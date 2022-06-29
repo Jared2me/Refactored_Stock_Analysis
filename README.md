@@ -1,7 +1,7 @@
 # Refactored Stock Analysis
 
 ## Overview of Project
-#### This project takes prior code and refactors it to test if there is a difference in the time it takes to run. The 
+#### This project takes some prior written code that analyzes stock performance and refactors it to test if there is a difference in the time it takes to run. 
 
 ## Results
 #### The initial code was written to count the volume of stock trades for a ticker and also find the beginning price and end price to calculate the annual return. It did this by searching every line of code and repeating this process over and over. The refactored code loops through the data set once and stores all the outputs in an array as opposed to looping multiple times for each ticker symbol.
